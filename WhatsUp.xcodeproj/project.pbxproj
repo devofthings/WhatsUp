@@ -13,6 +13,7 @@
 		8ED9CCBA2A98C67200890D4A /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED9CCB92A98C67200890D4A /* MainView.swift */; };
 		8ED9CCBC2A98C7DC00890D4A /* GroupListContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED9CCBB2A98C7DC00890D4A /* GroupListContainerView.swift */; };
 		8ED9CCBE2A98C8DE00890D4A /* AddNewGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED9CCBD2A98C8DE00890D4A /* AddNewGroupView.swift */; };
+		8ED9CCC02A98CEC400890D4A /* Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED9CCBF2A98CEC400890D4A /* Group.swift */; };
 		8EEC5A3C2A989AF600C657C0 /* WhatsUpApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEC5A3B2A989AF600C657C0 /* WhatsUpApp.swift */; };
 		8EEC5A3E2A989AF600C657C0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEC5A3D2A989AF600C657C0 /* ContentView.swift */; };
 		8EEC5A402A989AF600C657C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EEC5A3F2A989AF600C657C0 /* Assets.xcassets */; };
@@ -33,6 +34,7 @@
 		8ED9CCB92A98C67200890D4A /* MainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		8ED9CCBB2A98C7DC00890D4A /* GroupListContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupListContainerView.swift; sourceTree = "<group>"; };
 		8ED9CCBD2A98C8DE00890D4A /* AddNewGroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewGroupView.swift; sourceTree = "<group>"; };
+		8ED9CCBF2A98CEC400890D4A /* Group.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Group.swift; sourceTree = "<group>"; };
 		8EEC5A382A989AF600C657C0 /* WhatsUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhatsUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EEC5A3B2A989AF600C657C0 /* WhatsUpApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatsUpApp.swift; sourceTree = "<group>"; };
 		8EEC5A3D2A989AF600C657C0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 			children = (
 				8ED9CCB72A98C63800890D4A /* AppState.swift */,
 				8E297D312A98B154004ED7CC /* Model.swift */,
+				8ED9CCBF2A98CEC400890D4A /* Group.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -214,6 +217,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8ED9CCC02A98CEC400890D4A /* Group.swift in Sources */,
 				8EC4983F2A98B78400EE2087 /* LoginView.swift in Sources */,
 				8ED9CCBE2A98C8DE00890D4A /* AddNewGroupView.swift in Sources */,
 				8ED9CCBA2A98C67200890D4A /* MainView.swift in Sources */,
