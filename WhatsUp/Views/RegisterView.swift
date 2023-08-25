@@ -16,6 +16,7 @@ struct RegisterView: View {
     @State private var errorMessage: String = ""
     
     @EnvironmentObject private var model: Model
+    @EnvironmentObject private var appState: AppState
     
     private var isFormValid: Bool {
         // TODO: Add RegEx for email field
@@ -48,7 +49,7 @@ struct RegisterView: View {
                     .buttonStyle(.borderless)
                 
                 Button("Login"){
-                    // take the user to login screen
+                    appState.routes.append(.login)
                 }.buttonStyle(.borderless)
                 Spacer()
             }
@@ -60,6 +61,8 @@ struct RegisterView: View {
 
 struct SignUpView_Previews: PreviewProvider {
     static var previews: some View {
-        RegisterView().environmentObject(Model())
+        RegisterView()
+            .environmentObject(Model())
+            .environmentObject(AppState())
     }
 }
