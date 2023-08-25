@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		8E297D322A98B154004ED7CC /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E297D312A98B154004ED7CC /* Model.swift */; };
+		8EC4983F2A98B78400EE2087 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EC4983E2A98B78400EE2087 /* LoginView.swift */; };
 		8EEC5A3C2A989AF600C657C0 /* WhatsUpApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEC5A3B2A989AF600C657C0 /* WhatsUpApp.swift */; };
 		8EEC5A3E2A989AF600C657C0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEC5A3D2A989AF600C657C0 /* ContentView.swift */; };
 		8EEC5A402A989AF600C657C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EEC5A3F2A989AF600C657C0 /* Assets.xcassets */; };
@@ -23,6 +24,7 @@
 
 /* Begin PBXFileReference section */
 		8E297D312A98B154004ED7CC /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		8EC4983E2A98B78400EE2087 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		8EEC5A382A989AF600C657C0 /* WhatsUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhatsUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EEC5A3B2A989AF600C657C0 /* WhatsUpApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatsUpApp.swift; sourceTree = "<group>"; };
 		8EEC5A3D2A989AF600C657C0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -100,6 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				8EEC5A532A989F4F00C657C0 /* RegisterView.swift */,
+				8EC4983E2A98B78400EE2087 /* LoginView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -199,6 +202,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8EC4983F2A98B78400EE2087 /* LoginView.swift in Sources */,
 				8E297D322A98B154004ED7CC /* Model.swift in Sources */,
 				8EEC5A572A98A11C00C657C0 /* String+Extensions.swift in Sources */,
 				8EEC5A3E2A989AF600C657C0 /* ContentView.swift in Sources */,
